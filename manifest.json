@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "tracker"
+	"description": "track value in tbody and do some action"
+	"version": "0.1"
+
+	"browser_action": {
+		"default_icon": "icon/icon.png"
+		"default_popup": "popup.html"
+	},
+	"permisions": [
+		"activeTab",
+		"storage"
+	]
+}
